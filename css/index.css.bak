@@ -1,0 +1,57 @@
+*{margin:0; padding:0;}
+	li{list-style:none;}
+
+	a:hover, a:visited{text-decoration:none; color:#000;}
+	a:link, a:focus{text-decoration:none; color:#000;}
+
+	#wrap{width:100%; overflow:hidden; background:url("../img/back.png") no-repeat center center;}
+
+	#head{width:100%; height:150px; position:relative;}
+	#logo{width:20%; float:left; text-align:center; margin-left:20%; margin-top:-40px;}
+	#logo img{width:70%;}
+	#htext{width:30%; float:right; font-size:80%; margin-top:30px;}
+	#htext span{color:green;}
+	#htext li{width:40%; height:50px; line-height:50px; float:left; text-indent:5%;}
+
+	#nav{width:60%; font-size:80%; position:absolute; left:16%; top:140px;}
+	#nav li{width:11%; float:left; text-align:center;}
+	#nav li.list1{margin-left:3px;}
+	#nav li.list2{margin:-3px 0 0 3px;}
+
+	#visual{width:40%; margin-left:15%; margin-top:80px;}
+	#visual h2{font-size:320%; color:#9e5203;}
+	#visual h4{font-size:85%; color:#237743; font-weight:900; padding-bottom:20px;}
+
+	#contents{width:40%; margin-left:15%; margin-top:20px;}
+	#conhead{width:100%; height:80px; background:url("../img/bar1.png") no-repeat;}
+	#conhead p{font-size:240%; color:#fff; font-weight:900; line-height:70px;} 
+	
+	#conbody{width:85%; background:url("../img/box.png") no-repeat center center;}
+	#conbody p{width:100%; font-size:80%; padding:20px 15px;}
+	
+	/*slide start*/
+	#screen{width:440px; overflow:hidden;}
+	
+	#conbody ul#pic{width:1760px;}
+	#conbody .pic1{float:left;}
+	#conbody #pic:after{content:""; clear:both; display:block;}
+	/*end*/
+
+	#conbody span{color:green;}
+
+	#confooter{width:100%; height:30px; background:url("../img/bar2.png") no-repeat;}
+	#confooter ul{width:50%; margin:0 auto; padding:2% 0 0;}
+	#confooter li.dot{border:1px solid #203e2b;
+					   border-radius:20px;
+					   display:block;
+					   box-shadow:0px 0px 5px #000 inset;
+					   width:30px; height:10px;
+					   float:left; margin:0 3%;}
+	#confooter li.dot:hover{background:orange;}
+	#confooter:after{content:""; clear:both; display:block;}
+
+	#footer{width:70%; margin:250px auto 0;}
+	#footer h2{color:#5d3c25; font-weight:900; text-indent:5%;}
+	#footer ul{width:100%; padding:20px 0 100px; text-align:center;}
+	#footer li{float:left;}
+	#footer li img{width:60%;}
